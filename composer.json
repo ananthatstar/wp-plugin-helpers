@@ -1,0 +1,20 @@
+{
+  "name": "ananthatstar/wp-plugin-helpers",
+  "description": "WordPress Plugin Helpers",
+  "version": "1.0.0-beta",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Anantharaj B",
+      "email": "ananthatstar@gmail.com"
+    }
+  ],
+  "license": "GPL-3.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "WPHelpers\\": "src/",
+      "WPHelpers\\Common\\": "src/Common/"
+    }
+  },
+  "require": {}
+}
